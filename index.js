@@ -1,9 +1,9 @@
 function dwarfRollCall(dwarves) {
-  var dwarveCount = '';
+  var dwarfCount = '';
   for(let i = 0; i < dwarves.length; i++) {
-    dwarveCount += `${i + 1}. ${dwarves[i]} `
+    dwarfCount += `${i + 1}. ${dwarves[i]} `
   }
-  return dwarveCount;
+  return dwarfCount;
 }
 
 function summonCaptainPlanet(planeteerCalls){
